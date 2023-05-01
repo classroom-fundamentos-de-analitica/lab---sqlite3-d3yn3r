@@ -38,5 +38,5 @@
 --
 --  >>> Escriba su codigo a partir de este punto <<<
 -- 
-select substr(c14,1,4) AS YEAR,count(*) AS CANT from tbl1
+select COUNT(*) from tbl1
 where substr(c14,1,4) = '2018';
